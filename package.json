@@ -1,0 +1,36 @@
+{
+  "name": "cosjs.updater",
+  "description": "updater",
+  "version": "0.0.1",
+  "main": "./index.js",
+  "author": {
+    "name": "wanchao.huang",
+    "email": "hwclegend@163.com"
+  },
+  "keywords": [ "game", "updater" ],
+  "licenses": [
+    {
+      "type": "Apache License, Version 2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0"
+    }
+  ],
+  "dependencies": {
+    "cosjs.mvc": "*",
+    "cosjs.mongo": "*",
+    "cosjs.library": "*"
+  },
+  "engines": {
+    "node": "12.0+"
+  },
+  "directories": {
+    "lib": "./lib/"
+  },
+  "repository": {
+    "type": "https",
+    "url": "https://github.com/hwclegend/cosjs.updater.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hwclegend/cosjs.updater/issues"
+  },
+  "homepage": "https://github.com/hwclegend/cosjs.updater"
+}
